@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget38"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="fill_parent" android:layout_width="fill_parent" android:addStatesFromChildren="false">
+<TextView
+android:id="@+id/widget28"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="GPS Tracking System"
+android:gravity="center"
+android:layout_y="7px"
+android:background="#0000" android:textSize="30sp" android:layout_x="20px">
+</TextView>
+<TextView
+android:id="@+id/widget37"
+android:layout_width="wrap_content"
+android:layout_height="27px"
+android:text="Tracking ID:"
+android:layout_x="10px" android:textSize="14sp" android:layout_y="83px">
+</TextView>
+<Button
+android:id="@+id/widget40"
+android:layout_height="wrap_content"
+android:textSize="18sp"
+android:layout_x="24px"
+android:text="Enable GPS " android:layout_width="430px" android:layout_y="240px">
+</Button>
+<Button
+android:id="@+id/widget41"
+android:layout_height="wrap_content"
+android:text="Start Tracking System"
+android:textSize="18sp"
+android:layout_x="24px"
+android:layout_width="430px" android:layout_y="320px">
+</Button>
+<Button
+android:id="@+id/widget42"
+android:layout_height="wrap_content"
+android:text="Help"
+android:textSize="18sp"
+android:layout_x="26px"
+android:layout_width="430px" android:layout_y="480px">
+</Button>
+<Button
+android:id="@+id/widget43"
+android:layout_height="wrap_content"
+android:text="About"
+android:textSize="18sp"
+android:layout_x="25px"
+android:layout_width="430px" android:layout_y="560px">
+</Button>
+
+<Button android:id="@+id/Button01" android:layout_height="wrap_content" android:layout_x="26px" android:layout_y="400px" android:layout_width="430px" android:text="Stop Tracking System" android:textSize="18sp" android:enabled="false"></Button>
+<Button android:text="Exit" android:id="@+id/Button02" android:layout_height="wrap_content" android:layout_width="100px" android:layout_x="118dip" android:layout_y="423dip"></Button>
+<Spinner android:layout_height="wrap_content" android:layout_width="210dip" android:id="@+id/spinner1" android:layout_x="89dip" android:layout_y="43dip"></Spinner>
+<Button android:layout_width="75dip" android:text="Add" android:id="@+id/add" android:layout_height="wrap_content" android:layout_x="144dip" android:layout_y="90dip"></Button>
+<Button android:layout_width="75dip" android:text="Remove" android:id="@+id/remove" android:layout_height="wrap_content" android:layout_x="218dip" android:layout_y="90dip"></Button>
+<Button android:layout_width="150px" android:text="Update Now" android:layout_height="wrap_content" android:layout_x="24dip" android:layout_y="90dip" android:id="@+id/update"></Button>
+</AbsoluteLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="hello">Hello World, gps_status!</string>
+    <string name="app_name">GPS Status</string><string name="str1">Help</string>
+<string name="str2">How to use this application?</string>
+<string name="str3">Steps</string>
+<string name="str4">1.Enter the server IP address in xxx.xxx.xxx.xxx format.</string>
+<string name="str5">2.Enter your tracking ID which will be known to the person who wants to locate your device location.</string>
+<string name="str6">3.Press the Start Tracking System button to enable this application.</string>
+<string name="str7">What is Server IP Address ?</string>
+<string name="str8">Server IP Address is the IP address of the machine where your location database resides which is in the format as stated above.</string>
+
+<string name="str9">What is Tracking ID ?</string>
+<string name="str10">Tracking ID is the unique ID which must be known to the person who wants to locate you.</string>
+</resources>
